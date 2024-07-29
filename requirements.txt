@@ -1,6 +1,7 @@
 asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 cassandra-driver==3.29.0
+certifi==2024.7.4
 click==8.1.7
 colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
 comm @ file:///C:/b/abs_67a8058udb/croot/comm_1709322909844/work
@@ -29,6 +30,7 @@ numpy==1.24.4
 packaging @ file:///C:/b/abs_c3vlh0z4jw/croot/packaging_1720101866539/work
 pandas==2.0.3
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+-e git+https://github.com/kapishash/phishing-classifier.git@33cfd00e0f6da2b37ea3e7dc5895a68378e5428e#egg=phishing
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 pillow==10.4.0
 platformdirs @ file:///C:/b/abs_b6z_yqw_ii/croot/platformdirs_1692205479426/work
@@ -51,4 +53,3 @@ typing_extensions @ file:///C:/b/abs_0as9mdbkfl/croot/typing_extensions_17152689
 tzdata==2024.1
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 zipp @ file:///C:/b/abs_b0beoc27oa/croot/zipp_1704206963359/work
--e .
