@@ -1,5 +1,7 @@
 asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+boto3==1.26.105
+botocore==1.29.165
 cassandra-driver==3.29.0
 certifi==2024.7.4
 click==8.1.7
@@ -20,6 +22,7 @@ importlib_resources==6.4.0
 ipykernel @ file:///C:/b/abs_c2u94kxcy6/croot/ipykernel_1705933907920/work
 ipython @ file:///C:/b/abs_254uk73z5b/croot/ipython_1691532131313/work
 jedi @ file:///C:/b/abs_1b8kmj7rrm/croot/jedi_1721058359741/work
+jmespath==1.0.1
 jupyter_client @ file:///C:/b/abs_a6h3c8hfdq/croot/jupyter_client_1699455939372/work
 jupyter_core @ file:///C:/b/abs_beftpbuevw/croot/jupyter_core_1718818307097/work
 kiwisolver==1.4.5
@@ -30,7 +33,7 @@ numpy==1.24.4
 packaging @ file:///C:/b/abs_c3vlh0z4jw/croot/packaging_1720101866539/work
 pandas==2.0.3
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
--e git+https://github.com/kapishash/phishing-classifier.git@33cfd00e0f6da2b37ea3e7dc5895a68378e5428e#egg=phishing
+-e git+https://github.com/kapishash/phishing-classifier.git@6fac73674a8e2267a800d522605864c621771d0e#egg=phishing
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 pillow==10.4.0
 platformdirs @ file:///C:/b/abs_b6z_yqw_ii/croot/platformdirs_1692205479426/work
@@ -43,7 +46,9 @@ pyparsing==3.1.2
 python-dateutil @ file:///C:/b/abs_3au_koqnbs/croot/python-dateutil_1716495777160/work
 pytz==2024.1
 pywin32==305.1
+PyYAML==6.0.1
 pyzmq @ file:///C:/b/abs_89aq69t0up/croot/pyzmq_1705605705281/work
+s3transfer==0.6.2
 seaborn==0.12.2
 six @ file:///tmp/build/80754af9/six_1644875935023/work
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
@@ -51,5 +56,6 @@ tornado @ file:///C:/b/abs_7bua0304mj/croot/tornado_1718740122405/work
 traitlets @ file:///C:/b/abs_bfsnoxl4pq/croot/traitlets_1718227069245/work
 typing_extensions @ file:///C:/b/abs_0as9mdbkfl/croot/typing_extensions_1715268906610/work
 tzdata==2024.1
+urllib3==1.26.19
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 zipp @ file:///C:/b/abs_b0beoc27oa/croot/zipp_1704206963359/work
