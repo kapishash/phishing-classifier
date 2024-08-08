@@ -1,6 +1,7 @@
 import sys
 from typing import Optional, List
-from database_connect import mongo_operation as mongo
+import database_connect as connection
+# from database_connect import mongo_operation as mongo
 from pymongo import MongoClient
 import numpy as np
 import pandas as pd
@@ -27,7 +28,7 @@ class PhishingData:
     
     def get_collection_data(self, collection_name: str) -> pd.DataFrame:
 
-        mongo_connection = mongo(
+        mongo_connection = connection.mongo_operation(
             client_url=self.mongo_url,
             database_name=self.database_name,
             collection_name=collection_name
@@ -39,7 +40,7 @@ class PhishingData:
         df = df.replace({"na": np.nan})
         return df
     
-    def export_collections_as_dataframe(self) -> pd.DataFrame:
+    def export_collections_as_dataframe(self):
         
         try:
 

@@ -8,7 +8,7 @@ from src.constant import *
 from src.exception import CustomException
 from src.logger import logging
 
-from src.data_access.phishing_data import PhisingData
+from src.data_access.phishing_data import PhishingData
 from src.utills.main_utils import MainUtils
 from dataclasses import dataclass
 
@@ -29,7 +29,7 @@ class DataIngestion:
             raw_batch_files_path = self.data_ingestion_config.data_ingestion_dir
             os.makedirs(raw_batch_files_path, exist_ok=True)
 
-            income_data = PhisingData(
+            income_data = PhishingData(
                 database_name=MONGO_DATABASE_NAME)
 
             logging.info(f"Saving exported data into feature store file path: {raw_batch_files_path}")
