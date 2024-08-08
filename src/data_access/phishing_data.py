@@ -40,6 +40,7 @@ class PhishingData:
         return df
     
     def export_collections_as_dataframe(self) -> pd.DataFrame:
+        
         try:
 
             collections = self.get_collection_names()
